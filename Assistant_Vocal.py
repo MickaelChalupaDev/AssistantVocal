@@ -72,8 +72,7 @@ def run_assistant():
         jokes = [
             "Comment appelle-t-on un cochon homo?… «Alors ? «Tu ne sais pas?» «Un porc tout gay...»",
             "Sais-tu quel est la différence en une femme et un ascenceur?»… «Aucune»… «Tu mets ton doigt ou t'habite»",
-            "Comment appelle-t-on une course a pied de somalien? «Une course de cotes»",
-             ]
+            ]
         talk(random.choice(jokes))
     elif "et toi" in command:
         msgs = ["Je fais juste mon truc !", "Je vais bien !", "Bien !", "Je suis bien et plein d'énergie."]
